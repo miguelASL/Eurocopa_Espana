@@ -13,3 +13,6 @@ Este repositorio contiene el análisis detallado de la participación de la sele
 - **Datos**: Carpeta con los datos utilizados para los análisis.
   - `estadisticas_partidos.csv`: Estadísticas de cada partido.
   - `jugadores.csv`: Información de los jugadores.
+
+
+![Portada Reporte](Portada.png)
