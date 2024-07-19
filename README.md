@@ -15,4 +15,4 @@ Este repositorio contiene el análisis detallado de la participación de la sele
   - `jugadores.csv`: Información de los jugadores.
 
 
-![Portada Reporte](Portada.png)
+![Portada Reporte](Portada Proyecto.png)
