@@ -1,0 +1,2572 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Partido 1 (ESP vs CRO)\",\"Partido 2 (ESP vs ITL)\",\"Jornada_3\",\"Georgia\",\"cuartos\",\"semifinal\",\"Final\",\"Resumen Total\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.128.1380.0 (24.04)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "AutoDetected_0d769fe0-fd7a-486b-beb4-ef94b3f93b7b",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "Jornada_3",
+        "toColumn": "Jugador",
+        "toTable": "Partido 2 (ESP vs ITL)"
+      },
+      {
+        "name": "AutoDetected_45bcfc2f-328b-4914-8fcc-867b4808efe7",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "Georgia",
+        "toColumn": "Jugador",
+        "toTable": "Partido 1 (ESP vs CRO)"
+      },
+      {
+        "name": "AutoDetected_26dc852b-acd4-4cda-9780-bcbdefbf6b6e",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "Partido 1 (ESP vs CRO)",
+        "toColumn": "Jugador",
+        "toTable": "cuartos"
+      },
+      {
+        "name": "AutoDetected_f020e1fa-e705-4f42-b163-53a3b38d3e83",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "semifinal",
+        "toColumn": "Jugador",
+        "toTable": "Partido 1 (ESP vs CRO)"
+      },
+      {
+        "name": "AutoDetected_1782aa88-6331-4ebf-8bf1-cc1bebe9c655",
+        "fromColumn": "Pases Completados",
+        "fromTable": "semifinal",
+        "isActive": false,
+        "toColumn": "Pases Completados",
+        "toTable": "cuartos"
+      },
+      {
+        "name": "AutoDetected_a40b6e17-5df5-4287-aa3a-3838695d3095",
+        "fromColumn": "Pases Completados",
+        "fromTable": "semifinal",
+        "isActive": false,
+        "toColumn": "Pases Completados",
+        "toTable": "Georgia"
+      },
+      {
+        "name": "AutoDetected_e02854cc-8a33-408a-ba36-a0e24496700e",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "Final",
+        "toColumn": "Jugador",
+        "toTable": "Partido 1 (ESP vs CRO)"
+      },
+      {
+        "name": "AutoDetected_becba28e-7e65-4a1a-80e5-910fd0ea4364",
+        "fromColumn": "Pases Completados",
+        "fromTable": "Final",
+        "isActive": false,
+        "toColumn": "Pases Completados",
+        "toTable": "cuartos"
+      },
+      {
+        "name": "AutoDetected_b0e1c911-81e4-4bce-8341-77f93625b64d",
+        "fromColumn": "Total de Pases ",
+        "fromTable": "Final",
+        "isActive": false,
+        "toColumn": "Total de Pases ",
+        "toTable": "semifinal"
+      },
+      {
+        "name": "AutoDetected_5d56ded9-6051-429d-94e9-26a092899e05",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "Partido 1 (ESP vs CRO)",
+        "toColumn": "Jugador",
+        "toTable": "Resumen Total"
+      },
+      {
+        "name": "AutoDetected_5a2e5c2a-1192-4608-86d6-3fb73f6b4474",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "Partido 2 (ESP vs ITL)",
+        "toColumn": "Jugador",
+        "toTable": "Resumen Total"
+      },
+      {
+        "name": "AutoDetected_86fb60e9-719e-453c-8d37-45e7d4ec93d3",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "Jornada_3",
+        "isActive": false,
+        "toColumn": "Jugador",
+        "toTable": "Resumen Total"
+      },
+      {
+        "name": "AutoDetected_b903eec3-33ea-419e-9a9c-96e93db33b5e",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "Georgia",
+        "isActive": false,
+        "toColumn": "Jugador",
+        "toTable": "Resumen Total"
+      },
+      {
+        "name": "AutoDetected_f6a273df-d8c1-4eff-9eb8-7f1c2a56140b",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "cuartos",
+        "isActive": false,
+        "toColumn": "Jugador",
+        "toTable": "Resumen Total"
+      },
+      {
+        "name": "AutoDetected_a873aabd-3663-46e4-a190-395dfd2dcccb",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "semifinal",
+        "isActive": false,
+        "toColumn": "Jugador",
+        "toTable": "Resumen Total"
+      },
+      {
+        "name": "AutoDetected_31d79ed2-db03-4c79-abf0-8c05d50d8449",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Jugador",
+        "fromTable": "Final",
+        "isActive": false,
+        "toColumn": "Jugador",
+        "toTable": "Resumen Total"
+      }
+    ],
+    "sourceQueryCulture": "es-ES",
+    "tables": [
+      {
+        "name": "DateTableTemplate_2c22ee8a-8634-4df1-b369-d301eb2fb635",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "d101a52d-255e-43f5-be2f-5beec2ebfefe",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "7d387d82-cd52-4eda-86e6-2dca2c1aef6c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "b594b871-98d5-4ce6-944b-9aa1e47cd8ff",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "cb77dcf8-bef5-4657-8594-b22aae76e3df",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "ef104bc6-018b-4d1b-a4f5-3277bdeaccf4",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "0391bbd0-6496-40c7-8263-ce10d5094cd4",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "4066fc53-8196-4fc2-9a83-9e29d59fed75",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "d4b1f25b-d683-4128-816d-c1481c4ba0ea",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "31a11bdb-5910-4341-9320-9db875139c2a",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "a35a9a9d-93f5-498d-b437-7d527c7928aa",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "b81c00cc-ac4a-401a-b723-522cf4603f1a",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "e1b28743-f983-457d-8b66-d5771f4da443"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "46e21ec3-01a3-4bb4-9bad-d912fde821ee",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_2c22ee8a-8634-4df1-b369-d301eb2fb635",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Partido 1 (ESP vs CRO)",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Jugador",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f0d50ab1-9a40-4799-8d08-51c704dd81c3",
+            "sourceColumn": "Jugador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Minutos jugados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "34ec7447-238e-4966-84c8-43965a5a26ed",
+            "sourceColumn": "Minutos jugados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Goles",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7c50501f-724d-4167-83b5-740e69b05b05",
+            "sourceColumn": "Goles",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Asistencias",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "eb6080e0-1d01-4bd4-b3e6-591442a38819",
+            "sourceColumn": "Asistencias",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos a puerta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c58a455f-91e0-4bf3-be88-4e54e6e8523b",
+            "sourceColumn": "Disparos a puerta",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos fuera",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "50748606-d5c0-4a59-aacb-e454e52bc203",
+            "sourceColumn": "Disparos fuera",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas recibidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "06683038-0787-4924-8733-6022b1e5bfa2",
+            "sourceColumn": "Faltas recibidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Recuperaciones",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "984b5fd6-0e61-4369-a2a3-e0c271c2677a",
+            "sourceColumn": "Recuperaciones",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas cometidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d4d94060-a1f5-4cd3-9113-0504dba70390",
+            "sourceColumn": "Faltas cometidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas amarillas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "031ce1d8-607b-49e0-8d7f-81d64ef39395",
+            "sourceColumn": "Tarjetas amarillas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas rojas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "593be83b-28ad-4ac9-b404-5d079f03cec0",
+            "sourceColumn": "Tarjetas rojas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pases completados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f45ead70-45ff-4c8e-af62-1a512013c0d0",
+            "sourceColumn": "Pases completados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total pases",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "462727d6-1894-4309-886c-7af67a4a8367",
+            "sourceColumn": "Total pases",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Regates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2c57d0bb-a14d-4be7-8b73-1f5b4666c886",
+            "sourceColumn": "Regates",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Paradas realizadas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "acb1779f-5297-4afd-9d24-dacb1f5d5051",
+            "sourceColumn": "Paradas realizadas",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "26fbe534-1072-4781-ab7d-53f7dac2cf4c",
+        "measures": [
+          {
+            "name": "Suma Total Pases",
+            "expression": "SUM('Partido 1 (ESP vs CRO)'[Pases completados])",
+            "formatString": "0",
+            "lineageTag": "2fd173dd-aa38-4223-920a-a1610a26fff0"
+          },
+          {
+            "name": "Pases Fallados",
+            "expression": "SUM('Partido 1 (ESP vs CRO)'[Total pases]) - SUM('Partido 1 (ESP vs CRO)'[Pases completados])",
+            "formatString": "0",
+            "lineageTag": "ae1488fd-bd03-48af-a10d-66e5c2160a4a"
+          },
+          {
+            "name": "Total Faltas",
+            "expression": "SUM('Partido 1 (ESP vs CRO)'[Faltas cometidas]) ",
+            "formatString": "0",
+            "lineageTag": "4c59170d-01d3-440b-ab4b-f5240b98900d"
+          },
+          {
+            "name": "Total Tiros A Puerta",
+            "expression": "SUM('Partido 1 (ESP vs CRO)'[Disparos a puerta])",
+            "formatString": "0",
+            "lineageTag": "1793877b-940e-4b3d-9453-8e9cca928df5"
+          },
+          {
+            "name": "Total Tiros Fuera",
+            "expression": "SUM('Partido 1 (ESP vs CRO)'[Disparos fuera])",
+            "formatString": "0",
+            "lineageTag": "3d57e527-dce1-4b0b-9d0e-03cdaf15bd60"
+          },
+          {
+            "name": "Total Tiros",
+            "expression": "SUM('Partido 1 (ESP vs CRO)'[Disparos a puerta]) + SUM('Partido 1 (ESP vs CRO)'[Disparos fuera])",
+            "formatString": "0",
+            "lineageTag": "ff5b44f1-486e-4cc6-85bd-d269add133c2"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partido 1 (ESP vs CRO)",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Power BI\\eurocopa\\Partido 1 (ESP vs CRO).csv\"),[Delimiter=\",\", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Origen,{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type text}, {\"Column4\", type text}, {\"Column5\", type text}, {\"Column6\", type text}, {\"Column7\", type text}, {\"Column8\", type text}, {\"Column9\", type text}, {\"Column10\", type text}, {\"Column11\", type text}, {\"Column12\", type text}, {\"Column13\", type text}, {\"Column14\", type text}, {\"Column15\", type text}}),",
+                "    #\"Filas en blanco eliminadas\" = Table.SelectRows(#\"Tipo cambiado\", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {\"\", null}))),",
+                "    #\"Columnas con nombre cambiado\" = Table.RenameColumns(#\"Filas en blanco eliminadas\",{{\"Column1\", \"Jugador\"}, {\"Column2\", \"Minutos Jugados\"}, {\"Column3\", \"Goles\"}, {\"Column4\", \"Asistencias\"}, {\"Column5\", \"Disparos a puerta\"}, {\"Column6\", \"Disparos fuera\"}, {\"Column7\", \"Faltas recibidas\"}, {\"Column8\", \"Recuperaciones\"}, {\"Column9\", \"Faltas cometidas\"}, {\"Column10\", \"Tarjetas amarillas\"}, {\"Column11\", \"Tarjetas rojas\"}, {\"Column12\", \"Pases completados\"}, {\"Column13\", \"Total pases\"}, {\"Column14\", \"Regates\"}, {\"Column15\", \"Paradas realizadas\"}}),",
+                "    #\"Filas superiores quitadas\" = Table.Skip(#\"Columnas con nombre cambiado\",1),",
+                "    #\"Tipo cambiado1\" = Table.TransformColumnTypes(#\"Filas superiores quitadas\",{{\"Minutos Jugados\", Int64.Type}, {\"Goles\", Int64.Type}, {\"Asistencias\", Int64.Type}, {\"Disparos a puerta\", Int64.Type}, {\"Disparos fuera\", Int64.Type}, {\"Faltas recibidas\", Int64.Type}, {\"Recuperaciones\", Int64.Type}, {\"Faltas cometidas\", Int64.Type}, {\"Tarjetas amarillas\", Int64.Type}, {\"Tarjetas rojas\", Int64.Type}, {\"Pases completados\", Int64.Type}, {\"Total pases\", Int64.Type}, {\"Regates\", Int64.Type}, {\"Paradas realizadas\", Int64.Type}, {\"Jugador\", type text}}),",
+                "    #\"Columnas con nombre cambiado1\" = Table.RenameColumns(#\"Tipo cambiado1\",{{\"Minutos Jugados\", \"Minutos jugados\"}})",
+                "in",
+                "    #\"Columnas con nombre cambiado1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Partido 2 (ESP vs ITL)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Jugador",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5d2813b7-496b-4a2a-9851-51994d32f617",
+            "sourceColumn": "Jugador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Minutos Jugados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "67978445-686e-42d2-bb8a-a55ff1d6d317",
+            "sourceColumn": "Minutos Jugados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Goles",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ccff0741-8121-4e69-ad62-658e3165955d",
+            "sourceColumn": "Goles",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Asistencias",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a9a85b8d-a3df-43ef-90ab-78c49240be94",
+            "sourceColumn": "Asistencias",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos a puerta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c8965843-5e94-4d0a-8814-c7b7ed0d64ca",
+            "sourceColumn": "Disparos a puerta",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos fuera",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d8f7d421-1327-403f-bb9f-95c40b42d931",
+            "sourceColumn": "Disparos fuera",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas recibidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "139348d1-3c1e-4257-89d5-e1f5147ebe0a",
+            "sourceColumn": "Faltas recibidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Recuperaciones",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c85d628c-ee9a-4b6f-8e48-e17222f0d594",
+            "sourceColumn": "Recuperaciones",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas cometidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "75722161-3255-4e4d-950e-f7d81fb3589d",
+            "sourceColumn": "Faltas cometidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjeta amarillas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7f143cb8-e65b-47f1-854d-d2bc0de683b5",
+            "sourceColumn": "Tarjeta amarillas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjeta roja",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "611544e8-f9fe-4fd0-a6fc-9567b3594ab2",
+            "sourceColumn": "Tarjeta roja",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pases completados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7c70a096-e65c-4816-ab58-3ee3016047b1",
+            "sourceColumn": "Pases completados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total pases",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e05aee49-f66f-4a0d-91f7-cdb57bc0bc45",
+            "sourceColumn": "Total pases",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Regates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "15e003bb-1695-496c-9f30-442c634387fa",
+            "sourceColumn": "Regates",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Paradas realizadas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9337c8de-980e-4c0c-a187-44475b19f09a",
+            "sourceColumn": "Paradas realizadas",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "d7e06061-d14c-40d7-8518-1ef0baa34176",
+        "measures": [
+          {
+            "name": "Suma pases",
+            "expression": "SUM('Partido 2 (ESP vs ITL)'[Pases completados])",
+            "formatString": "0",
+            "lineageTag": "ad156860-8a79-497e-a19b-8e146664c021"
+          },
+          {
+            "name": "Pases fallados P2",
+            "expression": "SUM('Partido 2 (ESP vs ITL)'[Total pases]) - SUM('Partido 2 (ESP vs ITL)'[Pases completados])",
+            "formatString": "0",
+            "lineageTag": "3f1e0e6c-bcb7-4c86-afc4-d6f59632f019"
+          },
+          {
+            "name": "Total tiro P2",
+            "expression": "SUM('Partido 2 (ESP vs ITL)'[Disparos a puerta]) + SUM('Partido 2 (ESP vs ITL)'[Disparos fuera])",
+            "formatString": "0",
+            "lineageTag": "6f9164b3-d771-41c6-8e53-1c26085518a1"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partido 2 (ESP vs ITL)",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Power BI\\eurocopa\\Fase de equipos - Partido 2.csv\"),[Delimiter=\",\", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Origen,{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type text}, {\"Column4\", type text}, {\"Column5\", type text}, {\"Column6\", type text}, {\"Column7\", type text}, {\"Column8\", type text}, {\"Column9\", type text}, {\"Column10\", type text}, {\"Column11\", type text}, {\"Column12\", type text}, {\"Column13\", type text}, {\"Column14\", type text}, {\"Column15\", type text}}),",
+                "    #\"Columnas con nombre cambiado\" = Table.RenameColumns(#\"Tipo cambiado\",{{\"Column1\", \"Jugador\"}, {\"Column2\", \"Minutos Jugados\"}, {\"Column3\", \"Goles\"}, {\"Column4\", \"Asistencias\"}, {\"Column5\", \"Disparos a puerta\"}, {\"Column6\", \"Disparos fuera\"}, {\"Column7\", \"Faltas recibidas\"}, {\"Column8\", \"Recuperaciones\"}, {\"Column9\", \"Faltas cometidas\"}, {\"Column10\", \"Tarjeta amarillas\"}, {\"Column11\", \"Tarjeta roja\"}, {\"Column12\", \"Pases completados\"}, {\"Column13\", \"Total pases\"}, {\"Column14\", \"Regates\"}, {\"Column15\", \"Paradas realizadas\"}}),",
+                "    #\"Filas superiores quitadas\" = Table.Skip(#\"Columnas con nombre cambiado\",2),",
+                "    #\"Tipo cambiado1\" = Table.TransformColumnTypes(#\"Filas superiores quitadas\",{{\"Minutos Jugados\", Int64.Type}, {\"Goles\", Int64.Type}, {\"Asistencias\", Int64.Type}, {\"Disparos a puerta\", Int64.Type}, {\"Disparos fuera\", Int64.Type}, {\"Faltas recibidas\", Int64.Type}, {\"Recuperaciones\", Int64.Type}, {\"Faltas cometidas\", Int64.Type}, {\"Tarjeta amarillas\", Int64.Type}, {\"Tarjeta roja\", Int64.Type}, {\"Pases completados\", Int64.Type}, {\"Total pases\", Int64.Type}, {\"Regates\", Int64.Type}, {\"Paradas realizadas\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Jornada_3",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Jugador",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "332df9dd-eeb4-445e-9137-731cf2cfaa60",
+            "sourceColumn": "Jugador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Minutos jugados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ac3ce467-7ae3-418c-8950-94d9dc17748f",
+            "sourceColumn": "Minutos jugados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Goles",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "331dc543-dd12-48c3-b775-5b87e56841e0",
+            "sourceColumn": "Goles",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Asistencia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f99ce1e9-53c9-48c0-940c-0e31645783b8",
+            "sourceColumn": "Asistencia",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos a puerta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cdb57942-c96b-476a-a6d6-a0954d0281e3",
+            "sourceColumn": "Disparos a puerta",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparo fuera",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2368a929-1182-432c-8df6-4d8b2d7d1fca",
+            "sourceColumn": "Disparo fuera",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Falta recibida",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "03271a54-9195-41b4-9c13-36f682b6c43d",
+            "sourceColumn": "Falta recibida",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Recuperaciones",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "52e4e5a7-9bb0-49cb-b0a3-32917aa3ae3e",
+            "sourceColumn": "Recuperaciones",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Falta Cometidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4bdcdb31-b41f-4646-84ea-3b0a8c40f8d3",
+            "sourceColumn": "Falta Cometidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjeta amarilla",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e25f66f5-5e45-47cb-b19c-2c9ec89a7c0c",
+            "sourceColumn": "Tarjeta amarilla",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjeta roja",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5e6d3a7a-79bd-45ff-8e4f-16b59a644c53",
+            "sourceColumn": "Tarjeta roja",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pase completado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4bff9a69-24f3-4069-a678-769c984818e8",
+            "sourceColumn": "Pase completado",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total dfe pases",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7945b11f-ccd1-493e-ad2f-e1672ffcc369",
+            "sourceColumn": "Total dfe pases",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Regates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "183495e8-a74f-452d-b40b-0419519a964b",
+            "sourceColumn": "Regates",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Paradas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f34f9e27-5d0e-4ff7-bb3e-04e4f158378c",
+            "sourceColumn": "Paradas",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "cdc212f5-6437-4afa-a6b1-e1b806231761",
+        "measures": [
+          {
+            "name": "Suma Pases 3",
+            "expression": "SUM(Jornada_3[Pase completado])",
+            "formatString": "0",
+            "lineageTag": "46d2b274-a766-466b-a1f1-aaf014bfcc12"
+          },
+          {
+            "name": "Pases fallados 3",
+            "expression": "SUM(Jornada_3[Total dfe pases]) - SUM(Jornada_3[Pase completado]) ",
+            "formatString": "0",
+            "lineageTag": "6d737f1a-0150-4280-a830-add4d8831718"
+          },
+          {
+            "name": "Suma de Tiros 3",
+            "expression": "SUM(Jornada_3[Disparo fuera]) + SUM(Jornada_3[Disparos a puerta])",
+            "formatString": "0",
+            "lineageTag": "a23a07eb-e90c-4ff3-9db4-aef345d99120"
+          },
+          {
+            "name": "Suma tiros a puerta 3",
+            "expression": "SUM(Jornada_3[Disparos a puerta])",
+            "formatString": "0",
+            "lineageTag": "8fbd0e3d-3e82-4328-b2f8-2daa89d919b3"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Jornada_3",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Excel.Workbook(File.Contents(\"C:\\Users\\msarm\\Desktop\\Power BI\\eurocopa\\ALB vs ESP.xlsx\"), null, true),",
+                "    Jornada_3_Table = Origen{[Item=\"Jornada_3\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Jornada_3_Table,{{\"Jugador\", type text}, {\"Minutos jugados\", Int64.Type}, {\"Goles\", Int64.Type}, {\"Asistencia\", Int64.Type}, {\"Disparos a puerta\", Int64.Type}, {\"Disparo fuera\", Int64.Type}, {\"Falta recibida\", Int64.Type}, {\"Recuperaciones\", Int64.Type}, {\"Falta Cometidas\", Int64.Type}, {\"Tarjeta amarilla\", Int64.Type}, {\"Tarjeta roja\", Int64.Type}, {\"Pase completado\", Int64.Type}, {\"Total dfe pases\", Int64.Type}, {\"Regates\", Int64.Type}, {\"Paradas\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Georgia",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Jugador",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f7f9a2a3-d34a-4257-858f-692326bf4347",
+            "sourceColumn": "Jugador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Minutos Jugados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b3dba629-4756-4c8e-b7fd-5cb663780faf",
+            "sourceColumn": "Minutos Jugados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Goles",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5d0791b4-3fed-4d12-9b35-8bababeb36d9",
+            "sourceColumn": "Goles",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Asistencias",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ebb72a26-3181-49aa-b06a-48b5cf85bfc4",
+            "sourceColumn": "Asistencias",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos a Puerta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0c845384-2c60-4cab-ac8b-c7d2d34a3bd3",
+            "sourceColumn": "Disparos a Puerta",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos Fuera",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d393a01c-1779-4daf-af97-9e05681b37e5",
+            "sourceColumn": "Disparos Fuera",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas Recibidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4967d504-12f4-4cd0-940a-3e4b480d32c2",
+            "sourceColumn": "Faltas Recibidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas Cometidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8b6e5c26-7f07-4aa6-bddf-8c74b7f237fb",
+            "sourceColumn": "Faltas Cometidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas Amarillas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "527d6a33-8daf-4d1f-8e5e-d66d7167d2b8",
+            "sourceColumn": "Tarjetas Amarillas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas Rojas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "49372430-b7ce-46cd-ae45-e02fed94cfd2",
+            "sourceColumn": "Tarjetas Rojas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pases Completados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e7057e75-f303-490e-b861-c82b9d267c04",
+            "sourceColumn": "Pases Completados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total de Pases ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b2e1eada-0013-42ac-a0a7-6df770a09ad3",
+            "sourceColumn": "Total de Pases ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Paradas Realizadas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f3f350fd-687c-49e6-9f09-2c010f9b4bbd",
+            "sourceColumn": "Paradas Realizadas",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "49f441ed-a736-4880-82b6-ae2d1cbf6c50",
+        "measures": [
+          {
+            "name": "Pases Fallado",
+            "expression": "SUM(Georgia[Total de Pases ]) - SUM(Georgia[Pases Completados])",
+            "formatString": "0",
+            "lineageTag": "69423e4d-57f0-482f-8d1d-19671325703a"
+          },
+          {
+            "name": "Tiros Totales",
+            "expression": "SUM(Georgia[Disparos a Puerta]) + SUM(Georgia[Disparos Fuera])",
+            "formatString": "0",
+            "lineageTag": "65c2c657-5191-4568-938d-b2b3983793ce"
+          },
+          {
+            "name": "Pases Acertados",
+            "expression": "SUM(Georgia[Pases Completados])",
+            "formatString": "0",
+            "lineageTag": "306bf780-18e1-4e27-9c15-77cd0653b93e"
+          },
+          {
+            "name": "Suma De Tiros A Puerta",
+            "expression": "SUM(Georgia[Disparos a Puerta])",
+            "formatString": "0",
+            "lineageTag": "3b26996f-88e8-4641-87f8-79e5394b524b"
+          },
+          {
+            "name": "Suma De Tiros Fuera",
+            "expression": "SUM(Georgia[Disparos Fuera])",
+            "formatString": "0",
+            "lineageTag": "c6666f85-8239-43ab-b35a-132d56a1006d"
+          },
+          {
+            "name": "Total Pases Completados",
+            "expression": "SUM('Georgia'[Pases Completados])",
+            "formatString": "0",
+            "lineageTag": "963831ab-3cd3-48c8-ad4d-ca85a8d0e42c"
+          },
+          {
+            "name": "Total de Pases",
+            "expression": "SUM(Georgia[Total de Pases ])",
+            "formatString": "0",
+            "lineageTag": "ca02c993-6096-403b-aee1-781836bd9ea7"
+          },
+          {
+            "name": "Porcentaje Pases Completados",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE('Georgia'[Total Pases Completados], Georgia[Pases Acertados], 0)",
+            "lineageTag": "87570e56-e3da-4eef-b65b-c84aa608b805"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Georgia",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Excel.Workbook(File.Contents(\"C:\\Users\\msarm\\Desktop\\Power BI\\eurocopa\\ESP vs GEO.xlsx\"), null, true),",
+                "    Georgia_Table = Origen{[Item=\"Georgia\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Georgia_Table,{{\"Jugador\", type text}, {\"Minutos Jugados\", Int64.Type}, {\"Goles\", Int64.Type}, {\"Asistencias\", Int64.Type}, {\"Disparos a Puerta\", Int64.Type}, {\"Disparos Fuera\", Int64.Type}, {\"Faltas Recibidas\", Int64.Type}, {\"Faltas Cometidas\", Int64.Type}, {\"Tarjetas Amarillas\", Int64.Type}, {\"Tarjetas Rojas\", Int64.Type}, {\"Pases Completados\", Int64.Type}, {\"Total de Pases \", Int64.Type}, {\"Paradas Realizadas\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "cuartos",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Jugador",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2b756887-8069-4956-b21b-c6857bb43af1",
+            "sourceColumn": "Jugador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Minutos Jugados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d2637bce-3803-47fa-9eab-fea2b9086aa8",
+            "sourceColumn": "Minutos Jugados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Goles",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d3c04fb1-093f-4b28-a9f3-c155bd185a7f",
+            "sourceColumn": "Goles",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Asistencias",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a9d66d34-b943-4040-8e1d-27f0139d55fa",
+            "sourceColumn": "Asistencias",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos a Puerta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e9494174-a3c3-4b47-9bf4-0075c0a7eba1",
+            "sourceColumn": "Disparos a Puerta",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos Fuera",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "65da2aea-5eff-4b78-9dbc-a46bfc97623c",
+            "sourceColumn": "Disparos Fuera",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas Recibidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ca57d2d8-79fd-47da-a961-25e9e1904103",
+            "sourceColumn": "Faltas Recibidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas Cometidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ad125a7b-adff-4522-bc69-43a0924935d6",
+            "sourceColumn": "Faltas Cometidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas Amarillas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "10509b5a-dfd6-489d-9d49-f165f6fd7989",
+            "sourceColumn": "Tarjetas Amarillas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas Rojas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "17ef5619-3213-444a-8b53-b892997ab604",
+            "sourceColumn": "Tarjetas Rojas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pases Completados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "68cb6998-c748-432c-9ff0-4d2927e185c4",
+            "sourceColumn": "Pases Completados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total de Pases ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "68f826c1-cf8d-4fba-837d-e0dc61a1ff55",
+            "sourceColumn": "Total de Pases ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Paradas Realizadas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "37712dd5-87b6-4a4a-b654-c2d1b6a10253",
+            "sourceColumn": "Paradas Realizadas",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "5343bbe7-775b-4bc7-bbec-3d875e63e68f",
+        "measures": [
+          {
+            "name": "Pases Acertados Cuartos",
+            "expression": "SUM(cuartos[Pases Completados])",
+            "formatString": "0",
+            "lineageTag": "27d87aa2-6333-4910-bcbd-c2a3a1704e61"
+          },
+          {
+            "name": "Pases Fallados Cuartos",
+            "expression": "SUM(cuartos[Total de Pases ]) - SUM(cuartos[Pases Completados])",
+            "formatString": "0",
+            "lineageTag": "30aecaa0-33e1-4d97-8783-49a8306f2020"
+          },
+          {
+            "name": "Suma Faltas Realizadas",
+            "expression": "SUM(cuartos[Faltas Cometidas])",
+            "formatString": "0",
+            "lineageTag": "8a58dfd3-bd99-4efd-9b6c-c5c1a3c6777c"
+          },
+          {
+            "name": "Suma Faltas Recibidas",
+            "expression": "SUM(cuartos[Faltas Recibidas])",
+            "formatString": "0",
+            "lineageTag": "55efe65d-bddc-46b1-894f-dc561309d9b5"
+          },
+          {
+            "name": "Suma Tiros A Puerta Cuartos",
+            "expression": "SUM(cuartos[Disparos a Puerta])",
+            "formatString": "0",
+            "lineageTag": "944c2584-348b-4aaf-ad52-96319ac55f51"
+          },
+          {
+            "name": "Suma Tiros Fuera Cuartos",
+            "expression": "SUM(cuartos[Disparos Fuera])",
+            "formatString": "0",
+            "lineageTag": "83eb5a81-cc74-42c9-8b39-e4cc429a944d"
+          },
+          {
+            "name": "Suma Totales Tiros",
+            "expression": "SUM(cuartos[Disparos Fuera]) + SUM(cuartos[Disparos a Puerta]) ",
+            "formatString": "0",
+            "lineageTag": "e19a9cc9-298a-4e5b-8ccc-758e7ac20969"
+          },
+          {
+            "name": "PromedioPasesCompletados",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE(cuartos[Pases Completados])",
+            "lineageTag": "04674947-0efb-4960-8fc7-6d4de139a911"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "cuartos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Power BI\\eurocopa\\cuartos.csv\"),[Delimiter=\",\", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Jugador\", type text}, {\"Minutos Jugados\", Int64.Type}, {\"Goles\", Int64.Type}, {\"Asistencias\", Int64.Type}, {\"Disparos a Puerta\", Int64.Type}, {\"Disparos Fuera\", Int64.Type}, {\"Faltas Recibidas\", Int64.Type}, {\"Faltas Cometidas\", Int64.Type}, {\"Tarjetas Amarillas\", Int64.Type}, {\"Tarjetas Rojas\", Int64.Type}, {\"Pases Completados\", Int64.Type}, {\"Total de Pases \", Int64.Type}, {\"Paradas Realizadas\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "semifinal",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Jugador",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d1f1c076-abd6-4cf4-8adf-a1a2a5f7b9b0",
+            "sourceColumn": "Jugador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Minutos Jugados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f95e02cc-29ca-4ddc-b69d-eb6a336fedc9",
+            "sourceColumn": "Minutos Jugados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Goles",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8dc68e54-407f-40b5-ab18-ed3c87babb43",
+            "sourceColumn": "Goles",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Asistencias",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c3fde2de-5549-479a-ae2f-1b85dba9570e",
+            "sourceColumn": "Asistencias",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos a Puerta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bf46006c-6708-4e7f-be81-fd030712eab4",
+            "sourceColumn": "Disparos a Puerta",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos Fuera",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8fdabc11-41ab-4846-9911-45402887f8a0",
+            "sourceColumn": "Disparos Fuera",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas Recibidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fd3bc341-ac1e-47f0-9949-189c51968c27",
+            "sourceColumn": "Faltas Recibidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas Cometidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e2246965-ef83-4d5b-8535-7cd280b11d25",
+            "sourceColumn": "Faltas Cometidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas Amarillas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f61abea7-2640-47d4-acc5-99f48293d51d",
+            "sourceColumn": "Tarjetas Amarillas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas Rojas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "696f89f4-46f7-4039-aa17-87649341188f",
+            "sourceColumn": "Tarjetas Rojas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pases Completados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "713e5136-f1b2-40a5-9639-0e5cfbd2e205",
+            "sourceColumn": "Pases Completados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total de Pases ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b6a475b0-abb6-4b37-bdc0-a5475b94d67e",
+            "sourceColumn": "Total de Pases ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Paradas Realizadas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b108ce08-cb16-4645-99d5-5bc13298c3c2",
+            "sourceColumn": "Paradas Realizadas",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "f22f8421-fce0-4f1c-963a-4a4a4d6c126b",
+        "measures": [
+          {
+            "name": "Suma Total de Tiros",
+            "expression": "SUM(semifinal[Disparos a Puerta]) + SUM(semifinal[Disparos Fuera])",
+            "formatString": "0",
+            "lineageTag": "4016e2d9-2763-4763-acff-3cdf95828141"
+          },
+          {
+            "name": "Suma De Pases Acertados Semifinal",
+            "expression": "SUM(semifinal[Pases Completados])",
+            "formatString": "0",
+            "lineageTag": "64047897-2086-47a7-b42e-df7817bb826d"
+          },
+          {
+            "name": "Suma de Pases Fallado Semifinal",
+            "expression": "SUM(semifinal[Total de Pases ]) - SUM(semifinal[Pases Completados])",
+            "formatString": "0",
+            "lineageTag": "f5bb9ef1-a6e4-4886-ae87-3e8360458ebd"
+          },
+          {
+            "name": "Promedio de Pases acertado",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE(semifinal[Pases Completados])",
+            "lineageTag": "9f9c1c77-578b-4b3c-869c-8c09a8967370"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "semifinal",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Power BI\\eurocopa\\semifinal.csv\"),[Delimiter=\",\", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Jugador\", type text}, {\"Minutos Jugados\", Int64.Type}, {\"Goles\", Int64.Type}, {\"Asistencias\", Int64.Type}, {\"Disparos a Puerta\", Int64.Type}, {\"Disparos Fuera\", Int64.Type}, {\"Faltas Recibidas\", Int64.Type}, {\"Faltas Cometidas\", Int64.Type}, {\"Tarjetas Amarillas\", Int64.Type}, {\"Tarjetas Rojas\", Int64.Type}, {\"Pases Completados\", Int64.Type}, {\"Total de Pases \", Int64.Type}, {\"Paradas Realizadas\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Final",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Jugador",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "745da30d-8da6-44c7-b06c-1859b132fa04",
+            "sourceColumn": "Jugador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Minutos Jugados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ca7bea21-a013-4f1a-b375-ea7466468527",
+            "sourceColumn": "Minutos Jugados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Goles",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "df2d96d3-6ca5-494e-9508-80ee7157e623",
+            "sourceColumn": "Goles",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Asistencias",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "91a69afb-37e8-4f02-b69e-9db0ddbfaaa7",
+            "sourceColumn": "Asistencias",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos a Puerta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3e731478-a1ea-467d-99bb-910741f82b4b",
+            "sourceColumn": "Disparos a Puerta",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos Fuera",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6b470cee-2ea9-4e6f-aefc-d87391f971c6",
+            "sourceColumn": "Disparos Fuera",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas Recibidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c0e51bb6-8379-4289-b52a-86e40ae54301",
+            "sourceColumn": "Faltas Recibidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas Cometidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "01614544-c141-4d0c-89de-3e8d75ac351c",
+            "sourceColumn": "Faltas Cometidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas Amarillas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "319b33f4-09c5-4afa-9173-bee0114f245a",
+            "sourceColumn": "Tarjetas Amarillas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas Rojas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "02b31a65-2675-49cc-950a-450152921488",
+            "sourceColumn": "Tarjetas Rojas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pases Completados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "92c86a24-64d2-486d-940e-d593fb165df7",
+            "sourceColumn": "Pases Completados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total de Pases ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8da3e620-9cb1-4565-b494-c2fedb902f23",
+            "sourceColumn": "Total de Pases ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Paradas Realizadas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4cc546a7-3bc8-457f-a125-38d0a8ffb809",
+            "sourceColumn": "Paradas Realizadas",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "793c4ad4-efbb-4646-a4a5-81c435ead3cf",
+        "measures": [
+          {
+            "name": "Pases Acertado",
+            "expression": "SUM(Final[Pases Completados])",
+            "formatString": "0",
+            "lineageTag": "39b9cb12-8179-4676-be0b-ea1d8f23e939"
+          },
+          {
+            "name": "Pases Erroneos",
+            "expression": "SUM(Final[Total de Pases ]) - SUM(Final[Pases Completados])",
+            "formatString": "0",
+            "lineageTag": "2a6599a1-cb37-478f-b52e-70ed2e2c5290"
+          },
+          {
+            "name": "Total de Tiros Final",
+            "expression": "SUM(Final[Disparos a Puerta]) + SUM(Final[Disparos Fuera])",
+            "formatString": "0",
+            "lineageTag": "5f643cf9-2629-45d9-8838-73d9fd78fe42"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Final",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Power BI\\eurocopa\\data\\Final.csv\"),[Delimiter=\",\", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Jugador\", type text}, {\"Minutos Jugados\", Int64.Type}, {\"Goles\", Int64.Type}, {\"Asistencias\", Int64.Type}, {\"Disparos a Puerta\", Int64.Type}, {\"Disparos Fuera\", Int64.Type}, {\"Faltas Recibidas\", Int64.Type}, {\"Faltas Cometidas\", Int64.Type}, {\"Tarjetas Amarillas\", Int64.Type}, {\"Tarjetas Rojas\", Int64.Type}, {\"Pases Completados\", Int64.Type}, {\"Total de Pases \", Int64.Type}, {\"Paradas Realizadas\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Resumen Total",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Jugador",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "91b7cac5-5590-491a-97df-c383f4752fd5",
+            "sourceColumn": "Jugador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Minutos Jugados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fab31856-bb02-44fd-a625-e4ca5d6d6616",
+            "sourceColumn": "Minutos Jugados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Goles",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "98c99574-e05c-437d-a4b5-e55055000beb",
+            "sourceColumn": "Goles",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos a Puerta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "57e50ab8-3711-4432-a9d0-5ec7b364ec65",
+            "sourceColumn": "Disparos a Puerta",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Disparos Fuera",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "aa7cb4cd-4b75-4f28-9399-777affc77b09",
+            "sourceColumn": "Disparos Fuera",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas Recibidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "38f2b680-8d02-4e2c-bc2a-e12aa9623f9b",
+            "sourceColumn": "Faltas Recibidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Faltas Cometidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "448dfd8f-4543-4328-814a-0df9dcd09367",
+            "sourceColumn": "Faltas Cometidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas Amarillas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d9535a53-c6f2-453e-bedd-afaf0f615a3d",
+            "sourceColumn": "Tarjetas Amarillas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tarjetas Rojas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "43823990-966a-4a7f-a311-136d9ec295e1",
+            "sourceColumn": "Tarjetas Rojas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pases Completados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "66c50a6b-ae53-422b-9e0e-596af477181e",
+            "sourceColumn": "Pases Completados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total de Pases ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8673c5f7-5287-43ac-85b9-0ecc748573ba",
+            "sourceColumn": "Total de Pases ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Paradas Realizadas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "555b7594-303a-4f9e-ace1-64cd41aed16d",
+            "sourceColumn": "Paradas Realizadas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Distancia recorrida (km)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "#,0",
+            "isHidden": true,
+            "lineageTag": "9c622b70-af1d-473d-b548-71b3c7642993",
+            "sourceColumn": "Distancia recorrida (km)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Velocidad máxima (km/h)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "d4b4ec19-6e6f-44bf-84f4-804bf45ba11e",
+            "sourceColumn": "Velocidad máxima (km/h)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Partidos Jugados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "37f05366-8342-4487-865e-f04b23eeab50",
+            "sourceColumn": "Partidos Jugados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Recuperaciones",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "56cc3992-76e9-4b6f-949c-b216db21c040",
+            "sourceColumn": "Recuperaciones",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pases Fallados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "'Resumen Total'[Total de Pases ] -'Resumen Total'[Pases Completados]",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "5bda4641-fa45-4090-84eb-a3cac5339842",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Distancia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "'Resumen Total'[Distancia recorrida (km)] / 100",
+            "isDataTypeInferred": true,
+            "lineageTag": "95d197c2-ab11-41d2-acc1-3187145854d2",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Velocidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "'Resumen Total'[Velocidad máxima (km/h)] / 10",
+            "isDataTypeInferred": true,
+            "lineageTag": "68b5479e-33b9-4ab3-b29e-44067df3dcd8",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Total de tiros",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "'Resumen Total'[Disparos a Puerta] + 'Resumen Total'[Disparos Fuera]",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "dd900fcc-94e1-4536-9cd8-05defa21021e",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Total de tarjetas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "'Resumen Total'[Tarjetas Amarillas] + 'Resumen Total'[Tarjetas Rojas]",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "fb18fd51-7003-4588-ad5e-f707759065eb",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "ddefab0a-4bef-47c2-bd09-3514c6ed799e",
+        "partitions": [
+          {
+            "name": "Resumen Total",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Power BI\\eurocopa\\data\\Resumen Total.csv\"),[Delimiter=\",\", Columns=16, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Jugador\", type text}, {\"Minutos Jugados\", Int64.Type}, {\"Goles\", Int64.Type}, {\"Disparos a Puerta\", Int64.Type}, {\"Disparos Fuera\", Int64.Type}, {\"Faltas Recibidas\", Int64.Type}, {\"Faltas Cometidas\", Int64.Type}, {\"Tarjetas Amarillas\", Int64.Type}, {\"Tarjetas Rojas\", Int64.Type}, {\"Pases Completados\", Int64.Type}, {\"Total de Pases \", Int64.Type}, {\"Paradas Realizadas\", Int64.Type}, {\"Distancia recorrida (km)\", type number}, {\"Velocidad máxima (km/h)\", type number}, {\"Partidos Jugados\", Int64.Type}, {\"Recuperaciones\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
