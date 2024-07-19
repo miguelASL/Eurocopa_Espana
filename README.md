@@ -1,5 +1,6 @@
 # Análisis de Datos de la Eurocopa España 2024
 
+![Portada](Portada_Proyecto.png)
 ## Descripción
 
 Este proyecto se centra en el análisis detallado del desempeño de la selección española en la Eurocopa 2024. Utilizando datos históricos y actuales, este análisis ofrece insights sobre los partidos, jugadores y estrategias del equipo. El objetivo es identificar patrones y tendencias que puedan ayudar a comprender mejor el rendimiento del equipo y predecir futuros resultados.
