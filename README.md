@@ -38,20 +38,23 @@ Asegúrate de tener los datos en el formato correcto y ubicados en la carpeta da
 
 ## Estructura del Proyecto
 
-- Videos:
+- **Videos**:
   - En esta carpeta tendremos un video de cada analisis que se realizo por partido.
 
-- data:
+- **data**:
   - En esta carpeta tendriamos todos los datos realizado en hojas de claculos de cada partido que disputo la seleccion española de futbol.
   
-- eurocopa.Report/:
+- **eurocopa.Report/**:
   - En esta carpeta se almacena los informes generados a partir del análisis de datos.
 
-- eurocopa.SemanticModel/:
+- **eurocopa.SemanticModel/**:
   - En esta carpeta tendremos los modelos semánticos y de machine learning desarrollados para el análisis.
  
-- graficas:
+- **graficas**:
   - En esta carpeta tendremos las imagenes que se generariian al ejecutar el script de python y tambien comando realizados en SQL.
+ 
+- **eurocopa.pbix**:
+  - Este es el archivo de los analisis de datos realizado en Power BI.
 
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Por favor, sigue los siguientes pasos:
@@ -72,11 +75,11 @@ git push origin feature/nueva-funcionalidad
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo LICENSE para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT.
 
 ## Contacto
 
-**Miguel ASL** -> msarmientolevy@gmail.com
+**Email** -> msarmientolevy@gmail.com
 
 **linkedin** -> https://www.linkedin.com/in/miguel-sarmiento-levy/
 
