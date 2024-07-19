@@ -79,8 +79,8 @@ Este proyecto está licenciado bajo la Licencia MIT.
 
 ## Contacto
 
-**Email** -> msarmientolevy@gmail.com
+**Email**: [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:msarmientolevy@gmail.com)
 
-**linkedin** -> https://www.linkedin.com/in/miguel-sarmiento-levy/
+**linkedin**: [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-sarmiento-)
 
-**Enlace del Proyecto** -> https://github.com/miguelASL/Eurocopa_Espana
+**Enlace del Proyecto**: [![Repo](https://img.shields.io/badge/Repository-%23121011.svg?logo=github&logoColor=white)](https://github.com/tuusuario/Eurocopa_Espana)
