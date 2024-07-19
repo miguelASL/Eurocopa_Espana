@@ -33,7 +33,7 @@ Este proyecto se centra en el análisis detallado del desempeño de la selecció
 
 Para ejecutar el análisis, simplemente corre el script principal:
 ```
-python main.py
+python analise.py
 ```
 Asegúrate de tener los datos en el formato correcto y ubicados en la carpeta data.
 
